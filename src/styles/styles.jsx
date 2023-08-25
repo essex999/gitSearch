@@ -126,7 +126,7 @@ export const Button = styled.button`
   border: none;
   background: none;
   &:hover {
-    color: #ca58bf;
+    color: #7d006c;
   }
 `;
 
@@ -136,6 +136,7 @@ export const GoBackSvg = styled(ArrowSvg)`
   fill: black;
   background-color: #ca58bf;
   padding-bottom: 38px;
+  cursor: pointer;
 `;
 export const SearchIcon = styled(SearchSvg)`
   height: 20px;
